@@ -1,0 +1,9 @@
+name: Laravel WorkFlow
+on: push
+
+jobs:
+  build:
+    name: Laravel Build
+    runs-on: ubuntu-18.04
+    steps:
+      - user: actions/checkout@v1
